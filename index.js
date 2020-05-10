@@ -47,3 +47,79 @@ const firstScreen = {
     choices: ["View Departments", "View Minion-Functions", "View Minions", "Add Department", "Add Minion-Function", "Add Minion", "Update Minion's Function"]
 }
 
+//choices
+const addDepartment = [{
+    type: "input",
+    name: "id",
+    message: "State Minions department Id!"
+},
+
+{
+    type: "input",
+    name: "department",
+    message: "State Minions Department Name!"
+}]
+
+const addMinionFunction = [{
+    type: "input",
+    name: "id",
+    message: "State Minion-Function ID!"
+},
+
+{
+    type: "input",
+    name: "title",
+    message: "State Minions-Function title!"
+},
+{
+    type: "input",
+    name: "salary",
+    message: "State Minions-Function reward!"
+},
+{
+    type: "input",
+    name: "department",
+    message: "State Minions-Function Department!"
+}]
+
+const addMinion = [{
+    type: "input",
+    name: "id",
+    message: "Minion ID"
+},
+
+{
+    type: "input",
+    name: "first",
+    message: "Minion First Name"
+},
+{
+    type: "input",
+    name: "last",
+    message: "Minion last name?"
+},
+{
+    type: "input",
+    name: "role",
+    message: "Minion's Function"
+},{
+    type: "input",
+    name: "manager",
+    message: "Overseer's Id (If alive)"
+}
+
+]
+
+const UpdateMinionsFunction = [{
+    type: "input",
+    name: "id",
+    message: "State Minions id!"
+},
+
+{
+    type: "input",
+    name: "role",
+    message: "Minion's new function (by ID)!"
+}]
+
+
