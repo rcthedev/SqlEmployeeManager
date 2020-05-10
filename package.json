@@ -10,6 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/rcthedev/SqlEmployeeManager.git"
   },
+  "keywords": [
+    "commandline",
+    "inquirer",
+    "business",
+    "nonprofit",
+    "campaign",
+    "mySQL",
+    "backend",
+    "database"
+    ],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -25,4 +35,5 @@
     "sql-template-strings": "^2.2.2",
     "table": "^5.4.6"
   }
+ 
 }
