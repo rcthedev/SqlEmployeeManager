@@ -1,5 +1,5 @@
 drop database if exists company_db;
-create database if not exists company_db;
+create database company_db;
 use company_db;
 create table department(
     id int PRIMARY KEY,
